@@ -1,0 +1,49 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/solids/protos/SolidBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.09254254031356451 0.9362921106360882 0.3388111004570713 0.5677247718521338
+  position -2.091395184339661 -0.23896628287566885 1.4980880825512908
+}
+TexturedBackground {
+}
+SolidBox {
+  translation 0.0739971 -0.101103 0.1
+  size 0.05 0.3 0.2
+  appearance PBRAppearance {
+    baseColor 1 0 0
+    baseColorMap ImageTexture {
+      url [
+        ""
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+}
+E-puck {
+  hidden position_0_0 1259.3377866073483
+  hidden position_0_1 1658.1600321416554
+  hidden linearVelocity_0 -0.02808838106049308 0.04846940196665319 1.1848380808617804e-06
+  hidden angularVelocity_0 -0.004948204864178617 -0.0030233478562266755 0.10798882349221198
+  hidden rotation_1 0 1 0 2.7007251714310394
+  hidden linearVelocity_1 -0.026693077607417796 0.04606163330783949 -4.5255582836735195e-08
+  hidden angularVelocity_1 -2.2914385589767723 -1.3280607770450765 0.11034424462961616
+  hidden rotation_2 0 -1 0 0.6008889537554374
+  hidden linearVelocity_2 -0.029514988296082827 0.05092814178663349 4.626238769769283e-09
+  hidden angularVelocity_2 -2.5578929353991544 -1.4822619022231955 0.11080327422556961
+  translation -0.020599122403785308 -0.11424574823414603 -6.469470080324065e-05
+  rotation -0.00018361326804441526 0.00021995205526368332 0.9999999589536298 2.097895319373571
+  controller "colour_detect"
+}
